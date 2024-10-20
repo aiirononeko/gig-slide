@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: GIGエンジニア勉強会
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -24,9 +24,9 @@ mdc: true
 overviewSnapshots: true
 ---
 
-# Welcome to Slidev
+## 阿部寛の公式サイトから学ぶWebサイトのパフォーマンスとモダンフロントエンドのアプローチ
 
-Presentation slides for developers
+<!-- Presentation slides for developers -->
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -52,7 +52,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
-# What is Slidev?
+# 阿部寛さんの公式サイトって？
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
@@ -94,7 +94,7 @@ transition: slide-up
 level: 2
 ---
 
-# Navigation
+# アジェンダ
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
 
@@ -107,21 +107,12 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
 
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
 ---
 layout: two-cols
 layoutClass: gap-16
 ---
 
-# Table of contents
+# 自己紹介
 
 You can use the `Toc` component to generate a table of contents for your slides:
 
